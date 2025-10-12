@@ -17,9 +17,16 @@ body {
   gap: 1rem;              /* space between buttons */
   width: 50vw;
   align-items: stretch; 
+}
   
-  background-color:lightgreen;
+  button {
+  all: unset;
+  background-color: lightgreen;
   font-family: "Perpetua", "Times New Roman", serif;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .text {
