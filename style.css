@@ -8,14 +8,21 @@ body {
   align-items: center;     /* aligns to top */
   height: 100vh;               /* fills the full screen height */
   gap: 20vh;
+  flex-wrap: wrap;  /* allows the buttons to go below if there's not enough space */
 }
 
-button{
+.buttons {
+  display: flex;
+  flex-direction: column; /* stacks children vertically */
+  gap: 1rem;              /* space between buttons */
+  width: 100%;
+  align-items: stretch; 
+  
   background-color:lightgreen;
   font-family: "Perpetua", "Times New Roman", serif;
 }
 
-div{
+.text {
   display: flex;
   flex-direction: column;
   justify-content: center; 
