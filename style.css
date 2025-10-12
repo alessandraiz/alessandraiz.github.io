@@ -1,5 +1,5 @@
 body {
-  background-color:lightblue;
+  background-color:rgb(204, 177, 190)
   font-family: "Perpetua", "Times New Roman", serif;
   
   display: flex;
@@ -7,7 +7,7 @@ body {
   justify-content: center; 
   align-items: center;    
   height: 100vh;               
-  gap: 20vh;
+  gap: 20%;
   flex-wrap: wrap;  
 }
 
@@ -21,7 +21,7 @@ body {
   
   button {
   all: unset;
-  background-color: lightgreen;
+  background-color: rgb(255, 205, 255);
   font-family: "Perpetua", "Times New Roman", serif;
   padding: 0.75rem 1rem;
   border-radius: 6px;
@@ -36,8 +36,8 @@ button:active { transform: translateY(1px); }
   flex-direction: column;
   justify-content: center; 
   align-items: center;
-  gap: 10vh;
-  width: 30%;
+  gap: 10%;
+  width: 40%;
 }
 
 h1 {
