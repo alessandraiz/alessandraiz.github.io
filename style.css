@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column; /* stacks children vertically */
   gap: 1rem;              /* space between buttons */
-  width: 100%;
+  width: 50vw;
   align-items: stretch; 
   
   background-color:lightgreen;
@@ -31,7 +31,7 @@ body {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 p {
