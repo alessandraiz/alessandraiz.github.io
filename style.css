@@ -1,12 +1,12 @@
 body {
   background-color:lightblue;
   font-family: "Perpetua", "Times New Roman", serif;
+  display: flex;
+  justify-content: flex-start;
 }
 
 h1 {
   font-size: 50vw;
-  display: flex;
-  justify-content: flex-start;
   margin-left: 30vw;
   margin-top: 20vh;
 }
