@@ -7,7 +7,7 @@ body {
   justify-content: center; /* aligns text to the left */
   align-items: center;     /* aligns to top */
   height: 100vh;               /* fills the full screen height */
-  gap: 20vh
+  gap: 20vh;
 }
 
 button{
@@ -15,11 +15,12 @@ button{
   font-family: "Perpetua", "Times New Roman", serif;
 }
 
-div, div{
+div{
   display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center;
+  gap: 10vh;
 }
 
 h1 {
