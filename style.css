@@ -1,22 +1,19 @@
 body {
   background-color:lightblue;
   font-family: "Perpetua", "Times New Roman", serif;
+  
   display: flex;
-  justify-content: flex-start; /* aligns text to the left */
-  align-items: flex-start;     /* aligns to top */
-  /*height: 100vh;      */         /* fills the full screen height */
-  margin: 0;   
-}
-
-h1, p {
-  font-size: 5vw;
-  margin-top: 20vh;
+  flex-direction: row;
+  justify-content: center; /* aligns text to the left */
+  align-items: center;     /* aligns to top */
+  height: 100vh;               /* fills the full screen height */
+  gap: 20vh
 }
 
 h1 {
-  margin-left: 20vw;
+  font-size: 5vw;
 }
 
 p {
-  margin-left: 5vw;
+  font-size: 2vw;
 }
