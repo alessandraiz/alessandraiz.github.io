@@ -2,7 +2,10 @@ body {
   background-color:lightblue;
   font-family: "Perpetua", "Times New Roman", serif;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-start; /* aligns text to the left */
+  align-items: flex-start;     /* aligns to top */
+  height: 100vh;               /* fills the full screen height */
+  margin: 0;   
 }
 
 h1 {
