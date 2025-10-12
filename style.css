@@ -10,7 +10,12 @@ body {
   gap: 20vh
 }
 
-div{
+button{
+  background-color:lightgreen;
+  font-family: "Perpetua", "Times New Roman", serif;
+}
+
+div, div{
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -18,9 +23,9 @@ div{
 }
 
 h1 {
-  font-size: 2vw;
+  font-size: 5vw;
 }
 
 p {
-  font-size: .5vw;
+  font-size: 1.5vw;
 }
