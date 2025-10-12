@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;              
-  width: 50vw;
+  width: 30%;
   align-items: stretch; 
 }
   
@@ -37,6 +37,7 @@ button:active { transform: translateY(1px); }
   justify-content: center; 
   align-items: center;
   gap: 10vh;
+  width: 30%;
 }
 
 h1 {
