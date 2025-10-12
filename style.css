@@ -7,7 +7,7 @@ body {
   justify-content: center; 
   align-items: center;    
   height: 100vh;               
-  gap: 20%;
+  gap: 10%;
   flex-wrap: wrap;  
 }
 
@@ -37,11 +37,11 @@ button:active { transform: translateY(1px); }
   justify-content: center; 
   align-items: center;
   gap: 10%;
-  width: 40%;
+  width: 50%;
 }
 
 h1 {
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 p {
