@@ -1,7 +1,6 @@
 body {
-  background-color:rgb(204, 177, 190);
-  background-image:url('flowers.gif');
-  background-size:40%;
+  background-color:rgb(238, 203, 220);
+
   font-family: "Perpetua", "Times New Roman", serif;
   
   display: flex;
@@ -11,6 +10,11 @@ body {
   height: 100vh;               
   gap: 10%;
   flex-wrap: wrap;  
+}
+
+.flowers {
+  background-image:url('flowers.gif');
+  background-size:40%;
 }
 
 .buttons {
@@ -43,9 +47,9 @@ button:active { transform: translateY(1px); }
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: clamp(1.5rem, 3vw, 3rem);
 }
 
 p {
-  font-size: 2vw;
+  font-size: clamp(1.5rem, 2vw, 3rem);
 }
