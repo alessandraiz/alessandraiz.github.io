@@ -1,5 +1,7 @@
 body {
-  background-color:rgb(204, 177, 190)
+  background-color:rgb(204, 177, 190);
+  background-image:url('flowers.gif');
+  background-size:40%;
   font-family: "Perpetua", "Times New Roman", serif;
   
   display: flex;
