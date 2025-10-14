@@ -10,11 +10,13 @@ body {
   justify-content: center; 
   align-items: center;    
   height: 100vh;               
-  gap: 10%;
+  gap: 5vh;
 }
 
 h1 {
   font-size: clamp(1.25rem, 5vw, 3rem);
+  margin-left: 10vw;
+  margin-top: 10vh;
 }
 
 p {
