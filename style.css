@@ -5,7 +5,7 @@ body {
   background-color: rgb(254, 253, 252);
   font-family: "Perpetua", "Times New Roman", serif;
   
-  display: flex-start;
+  display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center;    
@@ -38,8 +38,8 @@ button:hover  { filter: brightness(0.95); }
 button:active { transform: translateY(1px); }
 
 img {
-  width: clamp(10rem, 40%, 100rem);
-  height: clamp(10rem, 40%, 100rem);
+  width: 40vw;
+  height: auto;
   border-radius: 23px;
 }
 
@@ -83,7 +83,7 @@ img {
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  gap: 10vw;
+  gap: 5vw;
   flex-wrap: wrap;
 }
 
