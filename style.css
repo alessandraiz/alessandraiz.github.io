@@ -24,18 +24,7 @@ p {
    width: 80vw;
 }
 
-button {
-  all: unset;
-  background-color: rgb(252, 199, 191);
-  font-family: "Perpetua", "Times New Roman", serif;
-  padding: 0.75rem 1rem;
-  border-radius: 6px;
-  text-align: center;
-  cursor: pointer;
-}
 
-button:hover  { filter: brightness(0.95); }
-button:active { transform: translateY(1px); }
 
 img {
   width: 40vw;
@@ -57,6 +46,36 @@ img {
   gap: 1rem;              
   width: clamp(10rem, 30%, 40rem);
   align-items: stretch; 
+
+    button {
+  all: unset;
+  background-color: rgb(252, 199, 191);
+  font-family: "Perpetua", "Times New Roman", serif;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+}
+
+.robotbuttons {
+
+  button {
+  all: unset;
+  background-color: rgb(191, 200, 252);
+  font-family: "Perpetua", "Times New Roman", serif;
+  padding: 0.5rem 0.6rem;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;              
+  width: clamp(10rem, 70%, 90rem);
+  align-items: stretch; 
+
 }
   
   
@@ -95,3 +114,5 @@ img {
   flex-wrap: wrap;
 }
 
+button:hover  { filter: brightness(0.95); }
+button:active { transform: translateY(1px); }
