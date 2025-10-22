@@ -1,0 +1,112 @@
+/* Base layout */
+:root {
+  --container-max: 1100px;
+  --side-pad: 5vw;
+  --gap: 2rem;
+  --radius: 23px;
+  --bg: rgb(254, 253, 252);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: "Perpetua", "Times New Roman", serif;
+  margin: 0;
+  min-height: 100vh;            
+  display: block;               
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 4rem var(--side-pad);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+/* Typography */
+h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  margin: 0;                   
+}
+
+p {
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Images */
+img {
+  width: clamp(220px, 40vw, 520px);
+  height: auto;
+  border-radius: var(--radius);
+  display: block;
+}
+
+/* Sections */
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vw;
+  align-items: center;
+  justify-content: flex-start;  
+}
+
+.linksandwriting {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;      
+
+/* Link row */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+}
+
+.links a {
+  text-decoration: underline;
+}}
+
+/* Buttons (usable anywhere) */
+button {
+  all: unset;
+  background-color: rgb(191, 200, 252);
+  font-family: "Perpetua", "Times New Roman", serif;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover  { filter: brightness(0.95); }
+button:active { transform: translateY(1px); }
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: clamp(10rem, 30%, 40rem);
+  align-items: stretch;
+}
+
+.robotbuttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: clamp(10rem, 70%, 90rem);
+  align-items: stretch;
+}
+
+
+@media (max-width: 600px) {
+  .container { padding-top: 2rem; }
+  .pictures { gap: 1rem; }
+}
