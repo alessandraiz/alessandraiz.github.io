@@ -12,6 +12,8 @@ body {
   height: 100vh;               
   gap: 10%;
   margin-left: 10vw;
+  flex-wrap: wrap;
+
 }
 
 h1 {
