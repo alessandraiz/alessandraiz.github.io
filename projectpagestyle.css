@@ -74,7 +74,7 @@ img {
   text-decoration: underline;
 }}
 
-/* Buttons (usable anywhere) */
+/* Buttons */
 button {
   all: unset;
   background-color: rgb(191, 200, 252);
@@ -106,7 +106,7 @@ button:active { transform: translateY(1px); }
 }
 
 
-@media (max-width: 600px) {
+@media (width: clamp(8rem, 30%, 30rem)) {
   .container { padding-top: 2rem; }
   .pictures { gap: 1rem; }
 }
