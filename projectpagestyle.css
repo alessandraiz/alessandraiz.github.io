@@ -35,9 +35,10 @@ h1 {
 }
 
 p {
-  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  font-size: clamp(0.9rem, 2.2vw, 1.1rem);
   line-height: 1.55;
   margin: 0;
+  font-weight: normal;
 }
 
 /* Images */
@@ -74,6 +75,14 @@ img {
   text-decoration: underline;
 }}
 
+.paragraphs {
+  text-indent: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4vh;
+  align-items: flex-start;
+}
+
 /* Buttons */
 button {
   all: unset;
@@ -97,13 +106,25 @@ button:active { transform: translateY(1px); }
   align-items: stretch;
 }
 
-.robotbuttons {
+.blogbuttons {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   width: clamp(10rem, 70%, 90rem);
   align-items: stretch;
+
+  button {
+  all: unset;
+  background-color: rgb(146, 162, 255);
+  font-family: "Perpetua", "Times New Roman", serif;
+  padding: 0.5rem 0.6rem;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
 }
+
+}
+
 
 
 @media (width: clamp(8rem, 30%, 30rem)) {

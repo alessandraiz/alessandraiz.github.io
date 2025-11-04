@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="projectpagestyle.css">
+  <link rel="icon" href="catlogo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <main class = "container">
+
+        <h1>
+            Learning About Cell Lysis
+        </h1>
+        
+        <section class = "paragraphs">
+        <p>
+            As part of a Mars Rover life-detection project for my design team, UBC Rover, I am leading the design of the soil pre-processing system that automates part of our experiment. Early on, I was told to incorporate a high-speed blade rotating at 12,000 rpm through water to “shear proteins off soil.” The instruction made little engineering or scientific sense. No one on my subteam could clearly justify it, and it would have made the system heavier and more power-hungry.
+        </p>
+        <p>
+            I questioned the direction, clarifying the real problem by reading past years’ documentation and talking to the science sub-team lead (the science sub-team is in charge of coming up with the experiment itself, while my sub-team designs the hardware for autonomously completing the experiment). I found that the real reason behind blending up the sample was to lyse cells- to break the cell membranes of microbial life found in Mars soil.
+        </p>
+        <p>
+            In response to this information, I did comprehensive research on cell lysis methods-looking into the benefits and drawbacks of almost all mechanical lysis methods: rotor and stator, homogenizing valves, bead homogenizers, cryogenic grinding, and sonication, and the technical workings of each type.
+        </p>
+        <p>
+            I found that many commercially available cell lysis instruments are meant for laboratory use, presenting a challenge for integrating a light and modular one into our mobile rover with limited power and space. I also found that using a blade for cell lysis was generally not recommended for cell types other than those found in animal tissues because the animal cells have weaker membranes than many other types. This presented another concern about using a blade for cell lysis because it’s extremely unlikely to find animal tissue in the soil of a Mars environment, and much more likely to find single celled organisms and bacteria. I decided at this point that using a blade would definitely not be the preferred method. 
+        </p>
+        <p>
+            I thought about using chemical lysis methods too- this would greatly improve the simplicity of our design. I learned about lysozyme, the concept of adding a hypotonic buffer so that water will make the swell cell up and make its cell membrane easier to burst. 
+
+I decided that we would definitely want to use something with lower osmotic pressure as a “solvent” for our soil, but that this would not be enough for many cells. 
+
+        </p>
+            <img src="osmoticpressure.svg"> <br> (Wikipedia)
+         <p>
+            
+         </p>
+         <p>
+            Lysozyme, a popular cell lysis solution, involves an enzyme that hydrolyzes peptidoglycan, a substance found in the cell walls of most bacterial cells. However, gram-negative bacteria have other components of their cell walls that would prevent lysozyme from being effective. I decided that this chemical method would not be most effective because we don’t know what kind of bacteria to expect. As far as other chemical methods go, I was hesitant to explore them because the science team still didn’t know what assays they were doing.
+         </p>
+         <p>
+            <img src="bacteriawall.png">
+            (Byjus)
+         </p>
+         <p>
+            I ended up moving forward with sonication as a final contender because it doesn’t involve moving a lot of components (like a bead mill), and cryogenic grinding (while very cool!) would be incredibly impractical for a competition like URC due to the fact that it would involve liquid nitrogen. Using a homogenizing valve would also be quite impractical onboard a rover- requiring high-pressure. 
+         </p>
+         <p>
+            I also find sonication quite interesting because it is an application of the piezoelectric effect. A resonant, high frequency, electrical signal is sent through a piezoelectric material to displace the surface by 10-15 microns with each oscillation. Connected to an actuating probe that can propagate these oscillations, we can sonicate a liquid. The sonication breaks cell membranes by causing cavitation-small bubbles in the liquid. These bubbles burst quickly and violently exerting enough pressure on their surroundings to break the membranes and walls of nearby cells.
+         </p>
+         <p>
+            While looking into sonication, I found a lot of tutorials on how to make your own sonication cleaning tanks, which provided some insight. Still, a lot of these setups were still way too large-scale. I looked at piezo electric transducers being sold online. I also found some companies specializing in piezoelectric devices and explored their websites. 
+
+I found a company called Cedrat Technologies that seemed to do all sorts of commercial and custom piezoelectric engineering. I reached out to them and asked for their advice, and they actually replied, asking about how I came to a piezoelectric solution and for more context. 
+
+         </p>
+         <p>
+            In the end, the science subteam of my design team decided on their life detection assays - Resazurin and Biuret, which are both cell permeable dye-based tests. This means I didn’t even need to do cell lysis for now! Honestly, I was a bit disappointed because it meant I couldn’t put as much energy into designing a compact cell lysis instrument, even though for now, it makes my job much easier. 
+
+I started purchasing and spec-ing motors and designing blades as shown on the main page for this project. However, for future competitions having an effective and compact way of lysing cells could be crucial, so I will continue to work on my sonification project! Also, it will be really fun. 
+
+         </p>
+         
+    </section>
+        </main>
+
+</body>
+</html>
+

@@ -27,12 +27,6 @@ p {
 
 
 
-img {
-  width: 40vw;
-  height: auto;
-  border-radius: 23px;
-}
-
 
 /*named elements*/
 
@@ -58,26 +52,6 @@ img {
   cursor: pointer;
 }
 }
-
-.robotbuttons {
-
-  button {
-  all: unset;
-  background-color: rgb(191, 200, 252);
-  font-family: "Perpetua", "Times New Roman", serif;
-  padding: 0.5rem 0.6rem;
-  border-radius: 6px;
-  text-align: center;
-  cursor: pointer;
-}
-
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;              
-  width: clamp(10rem, 70%, 90rem);
-  align-items: stretch; 
-
-}
   
   
 
@@ -96,23 +70,6 @@ img {
 
 .mainp {
   font-size: clamp(1.25rem, 0.1vw, 3rem);
-}
-
-.pictures {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 5vw;
-  flex-wrap: wrap;
-}
-
-.linksandwriting {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  flex-wrap: wrap;
 }
 
 button:hover  { filter: brightness(0.95); }
