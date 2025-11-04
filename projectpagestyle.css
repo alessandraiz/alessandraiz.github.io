@@ -43,7 +43,7 @@ p, figure {
 
 /* Images */
 img {
-  width: clamp(200px, 40vw, 75vw);
+  width: clamp(200px, 20rem, 100rem);
   height: auto;
   border-radius: var(--radius);
   /* display: block; */
@@ -128,7 +128,7 @@ button:active { transform: translateY(1px); }
 
 
 
-@media (width: clamp(8rem, 30%, 30rem)) {
+/* @media (width: clamp(8rem, 30%, 30rem)) {
   .container { padding-top: 2rem; }
   .pictures { gap: 1rem; }
-}
+} */
