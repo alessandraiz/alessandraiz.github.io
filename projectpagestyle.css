@@ -111,12 +111,12 @@ button:active { transform: translateY(1px); }
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: clamp(10rem, 70%, 90rem);
+  width: clamp(10rem, 50%, 90rem);
   align-items: stretch;
 
   button {
   all: unset;
-  background-color: rgb(146, 162, 255);
+  background-color: rgb(168, 181, 249);
   font-family: "Perpetua", "Times New Roman", serif;
   padding: 0.5rem 0.6rem;
   border-radius: 6px;
