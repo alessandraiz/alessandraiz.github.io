@@ -43,7 +43,7 @@ p, figure {
 
 /* Images */
 img {
-  width: clamp(200px, 20rem, 100rem);
+  width: clamp(200px, 20rem, 200rem);
   height: auto;
   border-radius: var(--radius);
   /* display: block; */
